@@ -1,15 +1,9 @@
 public class Autos{
     //atributos
-    public String Chevrolet;
-    public String Nissan;
-    public String Toyota;
-   
-
-
-    //Atributos
-    public String Marca;
     public String Modelo;
-
+    public String Año;
+    public String Motor;
+   
     //constructor
     public  Autos(String nuevoNombre){
         nombre=nuevoNombre;
