@@ -5,6 +5,11 @@ public class Autos{
     public String Toyota;
    
 
+
+    //Atributos
+    public String Marca;
+    public String Modelo;
+
     //constructor
     public  Autos(String nuevoNombre){
         nombre=nuevoNombre;
