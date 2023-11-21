@@ -3,36 +3,43 @@ public class Autos{
     public String Modelo;
     public String Año;
     public String Motor;
-    
-    
-
-    //Getters       
-    public Autos(String modelo) {
-        this.Modelo = modelo;
+   
+    //constructor
+    public  Autos(String nuevomodelo){
+        Modelo=nuevomodelo;
     }
 
-
-    public String getModelo() {
-        return Modelo;
+    //metodos
+    public String getautor(){
+        return  autor;
+    }
+    public  String getgenero(){
+        return genero;
     }
 
-    public String getAño() {
-        return Año;
+    public  String getestilo(){
+        return estilo;
+    }
+    public String getcantante(){
+        return cantante;
+    }
+    public String getnombre(){
+        return nombre;
     }
 
-    public String getMotor() {
-        return Motor;
-    }
     //Setters
-    public void setModelo(String modelo) {
-        Modelo = modelo;
+    public void setautor(String newautor){
+        this.autor=newautor;
+    }
+    public  void setgenero(String newgenero){
+        this.genero=newgenero;
+    }
+    public  void setestilo(String newestilo){
+        this.estilo=newestilo;
+    }
+    public void setcantante(String newcantante){
+        this.cantante=cantante;
     }
 
-    public void setAño(String año) {
-        Año = año;
-    }
 
-    public void setMotor(String motor) {
-        Motor = motor;
-    }
 }
