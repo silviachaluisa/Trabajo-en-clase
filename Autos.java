@@ -4,16 +4,7 @@ public class Autos{
     public int Año;
     public String Motor;
     public String color;
-   
-<<<<<<< HEAD
-    public String modelo;
-    public String color;
-    public String marca;
-    public int año;
 
-
-=======
->>>>>>> 04e86a74334ebe53b08f2857ee5a5f912b520ff4
     //constructor
     public  Autos(String nuevomodelo){
         Modelo=nuevomodelo;
