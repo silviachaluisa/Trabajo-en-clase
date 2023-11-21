@@ -2,8 +2,7 @@ public class Autos{
     //atributos
     public String Modelo;
     public int Año;
-    public String Motor;
-    public String color;
+    public String Color;
 
     //constructor
     public  Autos(String nuevomodelo){
@@ -18,8 +17,8 @@ public class Autos{
         return Año;
     }
 
-    public String getMotor() {
-        return Motor;
+    public String getColor() {
+        return Color;
     }
     //Setters
     public void setModelo(String modelo) {
@@ -30,7 +29,16 @@ public class Autos{
         Año = año;
     }
 
-    public void setMotor(String motor) {
-        Motor = motor;
+    public void setColor(String color) {
+        Color = color;
     }
+
+    // Imprimir todos los valores
+    public void valores()
+    {
+        System.out.println("El modelo del auto es "+this.getModelo());
+        System.out.println("Es del año "+this.getAño());
+        System.out.println("Y es de color "+this.getColor());
+    }
+    
 }
