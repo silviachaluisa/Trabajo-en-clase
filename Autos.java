@@ -8,38 +8,28 @@ public class Autos{
     public  Autos(String nuevomodelo){
         Modelo=nuevomodelo;
     }
-
-    //metodos
-    public String getautor(){
-        return  autor;
-    }
-    public  String getgenero(){
-        return genero;
+    //Getters
+    public String getModelo() {
+        return Modelo;
     }
 
-    public  String getestilo(){
-        return estilo;
-    }
-    public String getcantante(){
-        return cantante;
-    }
-    public String getnombre(){
-        return nombre;
+    public String getAño() {
+        return Año;
     }
 
+    public String getMotor() {
+        return Motor;
+    }
     //Setters
-    public void setautor(String newautor){
-        this.autor=newautor;
-    }
-    public  void setgenero(String newgenero){
-        this.genero=newgenero;
-    }
-    public  void setestilo(String newestilo){
-        this.estilo=newestilo;
-    }
-    public void setcantante(String newcantante){
-        this.cantante=cantante;
+    public void setModelo(String modelo) {
+        Modelo = modelo;
     }
 
+    public void setAño(String año) {
+        Año = año;
+    }
 
+    public void setMotor(String motor) {
+        Motor = motor;
+    }
 }
