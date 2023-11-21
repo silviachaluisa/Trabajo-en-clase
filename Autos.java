@@ -5,8 +5,8 @@ public class Autos{
     public String Motor;
    
     //constructor
-    public  Autos(String nuevoNombre){
-        nombre=nuevoNombre;
+    public  Autos(String nuevomodelo){
+        Modelo=nuevomodelo;
     }
 
     //metodos
