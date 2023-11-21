@@ -1,8 +1,9 @@
 public class Autos{
     //atributos
     public String Modelo;
-    public String Año;
+    public int Año;
     public String Motor;
+    public String color;
    
     //constructor
     public  Autos(String nuevomodelo){
@@ -13,7 +14,7 @@ public class Autos{
         return Modelo;
     }
 
-    public String getAño() {
+    public int getAño() {
         return Año;
     }
 
@@ -25,7 +26,7 @@ public class Autos{
         Modelo = modelo;
     }
 
-    public void setAño(String año) {
+    public void setAño(int año) {
         Año = año;
     }
 
