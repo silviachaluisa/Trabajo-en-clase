@@ -4,6 +4,11 @@ public class Autos{
     public String Nissan;
     public String Toyota;
    
+    public String modelo;
+    public String color;
+    public String marca;
+    public int año;
+
 
     //constructor
     public  Autos(String nuevoNombre){
